@@ -407,4 +407,4 @@ class RoboDanny(commands.AutoShardedBot):
 
     @property
     def config_cog(self) -> Optional[ConfigCog]:
-        return self.get_cog('Config')  # type: ignore
+        return self.get_cog('Config')  # type: ignore.
